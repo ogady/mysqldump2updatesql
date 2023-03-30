@@ -18,6 +18,8 @@ export PATH=$PATH:$GOBIN
 11112,0,"2022-01-02 12:12:12","2023-03-03 23:23:23"
 ```
 
+2. 下記コマンドでupdate sqlファイルに変換する
+
 ```sh
 mysqldump2updatesql -input=${path to input csv} -output=${path to output sql}
 ```
